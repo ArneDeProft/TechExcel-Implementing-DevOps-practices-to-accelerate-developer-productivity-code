@@ -76,7 +76,7 @@ jobs:
 
     - run: |
          echo "Run, Build Application using script" 
-         dotnet build "./Application/Application/src/RazorPagesTestSample/RazorPagesTestSample.csproj"
+         dotnet build "./Application/src/RazorPagesTestSample/RazorPagesTestSample.csproj"
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
